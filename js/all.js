@@ -59,7 +59,7 @@ function updlist(data){
     var ilen = data.length;
     var str = "";
     console.log(data);
-    for(var i = 0;i < ilen;i++){
+    for(var i = ilen;i < 0;i--){
         str = str + '<li class='+data[i].status+
         '><span class="status_name">' + data[i].status_name + '</span>'+
         '<span class="title">BMI:</span>'+data[i].bmi+'<span class="title">HEIGHT:</span>'+
